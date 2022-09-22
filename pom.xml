@@ -18,7 +18,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>src.main.java.Driver</mainClass>
+                        <mainClass>Driver</mainClass>
                     </manifest>
                 </archive>
             </configuration>
