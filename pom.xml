@@ -18,7 +18,8 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>Driver</mainClass>
+                        <addClasspath>true</addClasspath>
+                        <mainClass>ticktacktoe.Driver</mainClass>
                     </manifest>
                 </archive>
             </configuration>
