@@ -16,7 +16,7 @@ public class ConnectionUtil {
 
     public static Connection getConnection() {
         try {
-            FileInputStream propertiesInput = new FileInputStream("src//main//resources//application.properties");
+            FileInputStream propertiesInput = new FileInputStream("src/main/resources/application.properties");
 
             Properties props = new Properties();
             props.load(propertiesInput);
