@@ -36,6 +36,8 @@ public class ConnectionUtil {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch(SQLExcepion ex){
+            ex.printStackTrace();
         }
         return conn;
     }
