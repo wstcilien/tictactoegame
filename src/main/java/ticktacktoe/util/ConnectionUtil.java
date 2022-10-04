@@ -37,10 +37,10 @@ public class ConnectionUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//         catch (ClassNotFoundException ex) {
-//             System.out.println("An error occurred. Maybe user/password is invalid");
-//             ex.printStackTrace();
-//         }
+        catch (ClassNotFoundException ex) {
+            System.out.println("An error occurred. Maybe user/password is invalid");
+            ex.printStackTrace();
+        }
         return conn;
     }
 
