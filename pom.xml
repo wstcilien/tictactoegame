@@ -39,11 +39,11 @@
                    <version>2.19.0</version>
         </dependency>
 
-        <dependency>
+<!--         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <version>10.2.0.jre11</version>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
