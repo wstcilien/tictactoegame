@@ -36,7 +36,8 @@ public class ConnectionUtil {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } catch(SQLException ex){
+        } catch (SQLException ex) {
+            System.out.println("An error occurred. Maybe user/password is invalid");
             ex.printStackTrace();
         }
         return conn;
