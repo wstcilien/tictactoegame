@@ -23,7 +23,7 @@ public class ConnectionUtil {
             String username = (String) props.get("spring.datasource.username");
             String password = (String) props.get("spring.datasource.password");
             String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-            Class.forName("com.mysql.jdbc.Driver");
+//             Class.forName("com.mysql.jdbc.Driver");
 
             if (conn == null) {
                 try {
@@ -36,10 +36,11 @@ public class ConnectionUtil {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }catch (ClassNotFoundException ex) {
-            System.out.println("An error occurred. Maybe user/password is invalid");
-            ex.printStackTrace();
         }
+//         catch (ClassNotFoundException ex) {
+//             System.out.println("An error occurred. Maybe user/password is invalid");
+//             ex.printStackTrace();
+//         }
         return conn;
     }
 
