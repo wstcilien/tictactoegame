@@ -23,7 +23,7 @@ public class ConnectionUtil {
             String username = (String) props.get("spring.datasource.username");
             String password = (String) props.get("spring.datasource.password");
             String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver.class");
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
             if (conn == null) {
                 try {
