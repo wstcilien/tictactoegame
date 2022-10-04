@@ -22,7 +22,7 @@ public class ConnectionUtil {
             System.out.println(url);
             String username = (String) props.get("spring.datasource.username");
             String password = (String) props.get("spring.datasource.password");
-            String driver = "com.mysql.jdbc.Driver";
+            String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
             Class.forName(driver);
 
             if (conn == null) {
