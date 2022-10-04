@@ -22,6 +22,7 @@ public class ConnectionUtil {
             props.load(propertiesInput);
 
             String url = (String) props.get("spring.datasource.url");
+            System.out.println(url);
             String username = (String) props.get("spring.datasource.username");
             String password = (String) props.get("spring.datasource.password");
 
