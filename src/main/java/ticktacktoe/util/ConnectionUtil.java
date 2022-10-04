@@ -24,7 +24,7 @@ public class ConnectionUtil {
             System.out.println(url);
             String username = (String) props.get("spring.datasource.username");
             String password = (String) props.get("spring.datasource.password");
-            String driver = (String) props.get("spring.datasource.driver-class-name");
+            String driver = "com.mysql.jdbc.Driver";
             Class.forName(driver);
 
             if (conn == null) {
